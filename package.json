@@ -1,0 +1,13 @@
+{
+  "name": "holoscx-v1",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:marketing": "npm --workspace apps/marketing run dev",
+    "dev:admin": "npm --workspace apps/admin run dev",
+    "build:marketing": "npm --workspace apps/marketing run build",
+    "build:admin": "npm --workspace apps/admin run build"
+  }
+}
